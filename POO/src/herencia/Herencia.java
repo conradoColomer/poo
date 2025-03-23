@@ -7,6 +7,8 @@ public class Herencia {
 		emple.getNum_lejajo();
 		emple.getNombre(); 
 		
+		emple.setCargp("Programador");
+		System.out.println(emple.getCargo());
 		Consultor consul = new Consultor();
 		consul.getDni(); //Viene heredado de Persona
 		
