@@ -9,6 +9,7 @@ public class Herencia {
 		
 		emple.setCargp("Programador");
 		System.out.println(emple.getCargo());
+		
 		Consultor consul = new Consultor();
 		consul.getDni(); //Viene heredado de Persona
 		
